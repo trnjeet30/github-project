@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>GUITAR</title>
+<link rel=stylesheet type=text/css href="../css/style.css">
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/guitar.js"></script>
+<script  src="../js/guitardata.json"></script>
+</head>
+<body>
+	<div id="container">
+		<ul class="drop">
+			<li><a href=#>Guitar</a> 
+				<ul>
+					<li><a href=#> Electric Guitar</a></li>
+					<li><a href=#> Acoustic Guitar</a></li>
+					<li><a href=#> Electric Acoustic Guitar</a></li>
+					<li><a href=#> Classic Guitar</a></li>
+				</ul>
+				</li>
+			<li><a href=#>Bass</a></li>
+			<li><a href=#>Drum</a></li>
+			<li><a href=#>Keyboards</a></li>
+			<li><a href=#>Used Gear</a></li>
+			<li><a href=#>Clearance</a></li>
+
+		</ul>
+		
+	</div>
+<div id="foto">
+<img src="../images/product1.jpg" id="img">
+<div id="lft"><button onClick=slide(1)>Previous</button></div>
+<div id="ryt"><button onClick=slide(-1)>Next</button></div>
+		</div>
+		<button id="btn" onClick=expand()>Product Info</button>
+		<div id="info">
+		</div>
+		
+		<button id="btn" onClick=expan()>Shipping Info</button>
+		<div id="ship">
+		</div>
+		
+		<button id="btn" onClick=expa()>Cust Reviews</button>
+		<div id="rev">
+		</div>
+		<button id="buy"><a href=../html/pag2.html onClick=newf()>BUY</a></button>
+</body>
+</html>

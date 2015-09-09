@@ -1,0 +1,111 @@
+#container{
+	width:100%;
+	height:130px;
+}
+.drop{
+	width:100%;
+	height:60px;
+	background-color:lightgrey;
+	position:fixed;
+	z-index:99;
+
+}
+.drop li {
+	background-color:lightgrey;
+	padding-left:50px;
+	float:left;
+	height:60px;
+	list-style:none;
+	width:100px;
+	text-align:center;
+} 
+.drop a{
+	padding:15px;
+	color:red;
+	text-decoration:none;
+	display:block;
+	text-align:center;
+}
+
+
+	
+.drop li ul li{
+	display:none;
+	height:auto;
+	padding:0px;
+	margin:0;
+}
+
+.drop li:hover ul li{
+	display:block;
+	width:150px;
+	font-size:12px;
+}
+
+#foto{
+	
+	margin-right:auto;
+	margin-left:auto;
+	height:250px;
+	width:600px;
+	position:relative;
+	
+}
+#img{
+		
+	height:250px;
+	width:600px;
+	
+}
+
+#lft{
+	left:	0px;
+	top:90%;
+	position:absolute;
+}
+#ryt{
+	right:0px;
+	top:90%;
+	position:absolute;
+}
+
+#info,#ship,#rev{
+	margin:auto;
+	height:60px;
+	position:relative;
+	display:none;
+	margin-top:0px;
+}
+#btn{
+	margin:auto;
+	height:60px;
+	width:200px;
+	position:relative;
+	display:block;
+	background-color:teal;
+	margin-top:50px;
+	
+}
+
+#buy{
+	position:relative;
+	margin-left:600px;
+	margin-top:60px;
+	background-color:Cornsilk;
+	height:50px;
+	width:80px;
+	border-radius:5px;
+}
+
+
+#side,#nw{
+	margin-top:50px;
+	position:relative;
+	float:left;
+display:block;
+	height:150px;
+	width:300px;
+}
+#desc{height:150px;
+position:relative;
+margin-left:400px;}
